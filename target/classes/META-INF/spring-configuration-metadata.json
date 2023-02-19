@@ -1,0 +1,39 @@
+{
+  "groups": [
+    {
+      "name": "preferences",
+      "type": "com.roadster.config.Preferences",
+      "sourceType": "com.roadster.config.Preferences"
+    }
+  ],
+  "properties": [
+    {
+      "name": "preferences.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.roadster.config.Preferences",
+      "defaultValue": 0
+    },
+    {
+      "name": "preferences.city",
+      "type": "java.lang.String",
+      "sourceType": "com.roadster.config.Preferences"
+    },
+    {
+      "name": "preferences.gender",
+      "type": "java.lang.String",
+      "sourceType": "com.roadster.config.Preferences"
+    },
+    {
+      "name": "preferences.international-places",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.roadster.config.Preferences",
+      "defaultValue": false
+    },
+    {
+      "name": "preferences.origin-country",
+      "type": "java.lang.String",
+      "sourceType": "com.roadster.config.Preferences"
+    }
+  ],
+  "hints": []
+}
